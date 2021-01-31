@@ -1,0 +1,172 @@
+{
+	"id": "495d886b-a232-41ba-91fe-867fac7554a9",
+	"name": "pruebaMerqueo",
+	"timestamp": "2021-01-31T21:44:23.858Z",
+	"collection_id": "1bf418ec-8927-415a-84dc-e83434faf5dc",
+	"folder_id": 0,
+	"environment_id": "17e11f6d-ab13-4529-a547-60dfeef45580",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6bb41c68-83b8-4a92-b7ec-84327628e822",
+			"name": "GET",
+			"url": "https://jsonplaceholder.typicode.com/photos/?albumId=1",
+			"time": 532,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Albumes eql to 50": true,
+				"Title eql quasi quae est modi quis quam in impedit ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Albumes eql to 50": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Title eql quasi quae est modi quis quam in impedit ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				532
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Albumes eql to 50": true,
+					"Title eql quasi quae est modi quis quam in impedit ": true
+				}
+			]
+		},
+		{
+			"id": "f0ca3357-2bc8-46a7-b139-df0c302d5f0a",
+			"name": "POST",
+			"url": "https://jsonplaceholder.typicode.com/posts/",
+			"time": 123,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name": true,
+				"Response time is less than 300ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name": true,
+					"Response time is less than 300ms": true
+				}
+			]
+		},
+		{
+			"id": "55118d53-3827-45b7-adea-f59ba5094c3c",
+			"name": "DELETE",
+			"url": "https://jsonplaceholder.typicode.com/posts//2",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c0bede51-83d7-463a-b96c-8940193a0c3a",
+			"name": "PUT",
+			"url": "https://jsonplaceholder.typicode.com/comments//3",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verificar si el email es prueba_ange@gmail.com ": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verificar si el email es prueba_ange@gmail.com ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Verificar si el email es prueba_ange@gmail.com ": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1068,
+	"collection": {
+		"requests": [
+			{
+				"id": "6bb41c68-83b8-4a92-b7ec-84327628e822",
+				"method": "GET"
+			},
+			{
+				"id": "f0ca3357-2bc8-46a7-b139-df0c302d5f0a",
+				"method": "POST"
+			},
+			{
+				"id": "55118d53-3827-45b7-adea-f59ba5094c3c",
+				"method": "DELETE"
+			},
+			{
+				"id": "c0bede51-83d7-463a-b96c-8940193a0c3a",
+				"method": "PUT"
+			}
+		]
+	}
+}
